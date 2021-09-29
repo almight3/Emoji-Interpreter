@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: #e55d87; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5fc3e4,
+    #e55d87
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5fc3e4,
+    #e55d87
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+input {
+  margin: 1.5rem;
+  height: 7vh;
+  width: 20rem;
+  background-color: grey;
+  font-size: 40px;
+  padding: 0.5rem;
+  text-align: center;
+  opacity: 0.8;
+}
+#center {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
